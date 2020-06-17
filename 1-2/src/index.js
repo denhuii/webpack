@@ -1,5 +1,5 @@
-import _ from 'lodash';
+// tree sheking 只支持ES module
 
-console.log(_.join(['Another', 'mo', 'lo'], ' '));
+import { add } from './math';
 
-console.log(process.env.NODE_ENV == 'production');
+add(1, 2);
